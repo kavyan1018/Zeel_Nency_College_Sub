@@ -1,0 +1,95 @@
+Javascript :
+        : Scripting Language
+        : Object-oriented
+
+diff : 
+        1) programming language is use to create a software, applications and games.   --> python, java 
+        2) Scripting language is use to automate the execution of tasks. --> bash, perl, javascript
+
+
+void main() {
+    printf("Hello World\n");
+ 
+}
+
+
+1 line will compile code.
+
+
+programming language : c,cpp, java 
+Scripting language : python, javascript
+
+
+dynamic language : python, javascript
+statically typed language : c, c++, java
+
+int x  = 10; // statically typed language
+
+
+
+-------------------------------------------------------------------------------------------------
+
+server side programming language : php, python, java
+client side programming language : javascript
+
+
+ways to type javascript code :
+    1) inline javascript code : <script> </script>
+    2) internal javascript code : <script src="file.js"> </script>
+    3) external javascript code : <script src="file.js"> </script>
+
+
+----------------------------------------------------------------------------------------------------------
+
+javascript compiler : babel 
+
+java script was developed by brendan eich in 1995.
+for nestcape navigator browser.
+
+
+Chrome browser : v8 engine
+Firefox browser : spider monkey engine
+Edge browser : chakra engine
+Safari browser : javascript core engine
+
+
+
+--------------------------------------------------------------------------------------------
+
+do declaration and initialization in javascript :
+
+        variable declaration : // in c -->    int x = 10;
+
+            js : var , let , const
+
+
+                    var : var is having global scope and function scope.
+                    let : let is having block scope.
+                    const : const is having block scope and it is used to declare constant variable.
+
+
+    block : 
+    {
+        // block of code
+    }
+
+
+.js {}
+
+--------------------------------------------------------------------------------------------------------
+
+operators in javascript :
+--> operators are special symbols that are used to perform operations on one, two or three operands and that return a result.
+
+
+unary operator: it requires only one operand.   , ++, --, !
+binary operator: it requires two operands.
+ternary operator: it requires three operands. ?:
+
+0) binary operator :
+1) Arithmetic operators : +, -, *, /, %, ++, --
+2) Assignment operators : =, +=, -=, *=, /=, %=
+3) Comparison operators : ==, ===, !=, !==, >, <, >=, <=
+4) Logical operators : &&, ||, !
+5) Bitwise operators : &, |, ^, ~, <<, >>
+
