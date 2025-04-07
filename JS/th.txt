@@ -67,6 +67,11 @@ do declaration and initialization in javascript :
                     let : let is having block scope.
                     const : const is having block scope and it is used to declare constant variable.
 
+                        const x = 10; // constant variable
+                        var x = 10; // variable
+                        let x = 10; 
+
+
 
     block : 
     {

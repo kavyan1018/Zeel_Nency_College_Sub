@@ -5,10 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script src="basics1.js"></script>
+    <!-- <script src="basics1.js"></script> -->
+    <!-- 
+        there are 3 ways to include JS in HTML:
+        1. Inline JS
+        2. Internal JS (in the <head> or <body> section)
+        3. External JS (using the <script> tag with src attribute)
+    -->
 
 </head>
 <body>
+
+        <div id="output"></div>
     
 </body>
+<script>
+
+    // Internal JS
+    // what is console.log?
+    // console.log is a function that prints the output to the console
+
+    // what is innerHTML?
+    // innerHTML is a property that sets or returns the HTML content (inner HTML) of an element
+
+    // console.log("Hello World !");
+
+    document.getElementById("output").innerHTML = "<h1> Hello World ! </h1>";
+
+</script>
 </html>
