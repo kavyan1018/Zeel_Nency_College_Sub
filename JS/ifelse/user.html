@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Enter Your Details</h2>
+    <form>
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name">
+
+        <br><br>
+
+        <label for="Age">Enter your Age:</label>
+        <input type="text" id="Age">
+
+        <br><br>
+
+        <button type="submit" onsubmit="Check(event)">Submit</button>
+
+        <h3 id="message"></h3>
+    </form>
+
+    <script>
+    function Check(event){
+        event.preventDefault();
+
+        let name = document.getElementById("name").value;
+        let age = document.getElementById("Age").value;
+
+        let message = "";
+
+        if(age < 18){
+            message = "you are not eligible to vote.";
+        }
+        else {
+            message = "you are eligible to vote.";
+        }
+
+        document.getElementById("message").innerHTML = message;
+    }
+    </script>
+
+</body>
+</html>
