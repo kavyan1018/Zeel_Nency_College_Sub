@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Time Conversion from second</h2>
+
+    <label for="input">Enter the Seconds</label>
+    <input type="text" id="input" placeholder="Enter seconds">
+
+    <br><br>
+    <button id="btn" onclick="ConvertTime()">Convert</button>
+
+
+    <p id="output"></p>
+</body>
+<script>
+
+    function ConvertTime() {
+
+        let seconds = document.getElementById("input").value;
+
+        let hours = Math.floor(seconds / 3600);
+        let minutes = Math.floor((seconds % 3600) / 60);
+        let sec = seconds % 60;
+
+        document.getElementById("output").innerHTML = "Hours: " + hours + "<br>" +
+            "Minutes: " + minutes + "<br>" +
+            "Seconds: " + sec;
+    }
+</script>
+
+</html>
