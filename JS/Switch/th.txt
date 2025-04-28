@@ -1,0 +1,16 @@
+switch(expression) 
+{
+    case value1:
+        // code block
+        break;
+    case value2:
+        // code block
+        break;
+    case value3:
+        // code block
+        break;
+    default:
+        // code block
+}
+
+
